@@ -4,8 +4,7 @@ Um gerador simples de senhas em Python.
 
 Description. 
 The package package_name is used to:
-	- 
-	-
+	- Criar senhas com alguns filtros predefinidos.
 
 ## Installation
 
