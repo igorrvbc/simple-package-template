@@ -7,15 +7,19 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    name="password_generator",
+    version="0.1",
+    author="Igor Cruz",
+    author_email="igorrvbc@gmail.com",
+    description="Gerador de simples de senhas.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/igorrvbc/simple-package-template",
     packages=find_packages(),
-    install_requires=requirements,
-    python_requires='>=3.8',
+    classifiers=[
+        'Programing Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent'
+    ],
+    python_requires='>=3.6',
 )
